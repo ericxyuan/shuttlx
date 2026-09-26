@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-26T21:55:23.253831+00:00",
+  "passed": true,
+  "swiftSyntaxFiles": 39,
+  "targetCoverage": {
+    "ShuttlX": {
+      "swift": 21,
+      "resources": 4
+    },
+    "ShuttlXWidgets": {
+      "swift": 2,
+      "resources": 1
+    },
+    "ShuttlXWatch": {
+      "swift": 8,
+      "resources": 3
+    },
+    "ShuttlXWatchWidgets": {
+      "swift": 2,
+      "resources": 1
+    }
+  },
+  "masterIconSHA256": "5419edf186f473afd4f1ef2557e31a03c202ac76fd3b157c6a82c83deff9205d",
+  "errors": [],
+  "notPerformed": [
+    "Swift type checking",
+    "Swift package test execution",
+    "Xcode build",
+    "Simulator visual/accessibility verification",
+    "Paired device capture/transfer tests"
+  ]
+}

@@ -1,0 +1,20 @@
+name: Apple validation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.swift'
+      - '**.plist'
+      - '**.entitlements'
+      - '**.xcassets/**'
+      - 'ShuttlX.xcodeproj/**'
+      - 'Packages/**'
+      - 'scripts/verify_mac.sh'
+  pull_request:
+jobs:
+  apple:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test core and build Apple targets
+        run: bash scripts/verify_mac.sh

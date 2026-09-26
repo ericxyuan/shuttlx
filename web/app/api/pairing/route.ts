@@ -1,0 +1,2 @@
+import { db,endpoint,json,owner,sameOrigin,sha,rateLimit } from '@/lib/server';
+export const POST=endpoint(async r=>{sameOrigin(r);const id=await owner(r);await rateLimit('pair-create:'+id,10);const code=crypto.randomUUID().replaceAll('-','').slice(0,12).toUpperCase(),expiresAt=Date.now()+600000;await db().batch([db().prepare('DELETE FROM pairing WHERE owner = ? OR expires_at < ?').bind(id,Date.now()),db().prepare('INSERT INTO pairing(code_hash,owner,expires_at) VALUES (?,?,?)').bind(await sha(code),id,expiresAt)]);return json({code,expiresAt});});

@@ -1,0 +1,2 @@
+import { db,endpoint,json,owner,preferences,listSessions } from '@/lib/server';
+export const GET=endpoint(async r=>{const id=await owner(r);const [sessions,prefs,devices]=await Promise.all([listSessions(id),preferences(id),db().prepare('SELECT id,name,last_seen AS lastSeen,created_at AS createdAt FROM devices WHERE owner = ? ORDER BY created_at DESC').bind(id).all()]);return json({sessions,preferences:prefs,devices:devices.results});});

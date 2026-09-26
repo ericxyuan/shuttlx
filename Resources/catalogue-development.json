@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "title": "ShuttlX verified development catalogue",
+  "isDevelopmentDataset": true,
+  "brands": [
+    { "id": "yonex", "name": "Yonex", "website": "https://www.yonex.com" },
+    { "id": "lining", "name": "Li-Ning", "website": "https://www.li-ning.com" }
+  ],
+  "products": [
+    { "id": "yonex-astrox-100-zz", "brandID": "yonex", "category": "racket", "modelName": "Astrox 100 ZZ", "generation": "Current product page", "releaseYear": null, "discontinued": false, "description": "A verified development-catalogue product reference. Confirm regional availability before purchase.", "sourceURL": "https://www.yonex.com/astrox-100-zz", "verifiedAt": "2026-09-18T00:00:00Z" },
+    { "id": "lining-axforce-100", "brandID": "lining", "category": "racket", "modelName": "Axforce 100", "generation": "Current product page", "releaseYear": null, "discontinued": false, "description": "A verified development-catalogue product reference. Confirm regional availability before purchase.", "sourceURL": "https://www.li-ning.com", "verifiedAt": "2026-09-18T00:00:00Z" }
+  ],
+  "variants": [
+    { "id": "yonex-astrox-100-zz-standard", "productID": "yonex-astrox-100-zz", "label": "Select regional weight and grip from the official specification", "weightClass": null, "gripSize": null, "shoeSizeRange": null, "stringGauge": null, "gripThickness": null, "region": null, "sourceURL": "https://www.yonex.com/astrox-100-zz" },
+    { "id": "lining-axforce-100-standard", "productID": "lining-axforce-100", "label": "Select regional weight and grip from the official specification", "weightClass": null, "gripSize": null, "shoeSizeRange": null, "stringGauge": null, "gripThickness": null, "region": null, "sourceURL": "https://www.li-ning.com" }
+  ],
+  "colorways": [],
+  "images": []
+}

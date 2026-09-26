@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"582681C2EAE02B3F3D399C0C" = {
+			"isa" = "XCLocalSwiftPackageReference";
+			"relativePath" = "Packages/ShuttlXCore";
+		};
+		"0C2F1B0FAF009CE8742D725E" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "ShuttlX.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"E7740C743ACE34DBEEAA7FA7" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.app-extension";
+			"includeInIndex" = 0;
+			"path" = "ShuttlXWidgets.appex";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B136D0B52B15473B79BBDEC0" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "ShuttlXWatch.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"3720316C0DCB921C2DFDB4AB" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.app-extension";
+			"includeInIndex" = 0;
+			"path" = "ShuttlXWatchWidgets.appex";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"897DB351C5DFFBEBA92BDA2E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/App/AppNavigation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D4BE2389591BC77B3006532E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "897DB351C5DFFBEBA92BDA2E";
+		};
+		"C6097628A06CA9B49374A307" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/App/AppStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"48FB64CA46039B505953E04A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C6097628A06CA9B49374A307";
+		};
+		"946BB201E9149F6E5EA6A309" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/App/ShuttlXApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"DAC9B9FC13558AEEC4443C39" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "946BB201E9149F6E5EA6A309";
+		};
+		"4AADF6B51739C3B57776236C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/App/ShuttlXIntents.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5C2136C02757DFA861E51E63" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4AADF6B51739C3B57776236C";
+		};
+		"9C798CFFE5E6128FCAF20D10" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "ShuttlX/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"9F476D73B33F68B7F725F45D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9C798CFFE5E6128FCAF20D10";
+		};
+		"8BDFBB6AB8E8748F63F9C369" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Design/SessionPresentation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"C495D5FE35AB84AC9E5E7916" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8BDFBB6AB8E8748F63F9C369";
+		};
+		"6A902DFF3B6E2D65AD5C802B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Design/ShuttlComponents.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"51175FE06F488F23EB0444F9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6A902DFF3B6E2D65AD5C802B";
+		};
+		"9DBEB3CBA8FF2B78E63F2FA3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/AnalyticsViews.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"2CF13F17CC0F781634A71D02" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9DBEB3CBA8FF2B78E63F2FA3";
+		};
+		"2DF0240B635C173C60128D6F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Profile/EquipmentCatalogueView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"4B068E4CFCA0A8DA8FB7234F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "2DF0240B635C173C60128D6F";
+		};
+		"CB031E747A95CB57CA78EFD3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Profile/EquipmentHistoryView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"1062EB8CEE3FBC6FAF4A6A39" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CB031E747A95CB57CA78EFD3";
+		};
+		"DD0CE6656CA8AC84B7E1939D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Profile/ProfileEditor.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"40762EB23E5D1916AA27DE3E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DD0CE6656CA8AC84B7E1939D";
+		};
+		"5D64F38C3DDC1ADF846615F5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Profile/ProfileView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"2D1B097F670774AF82F8F359" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5D64F38C3DDC1ADF846615F5";
+		};
+		"5375190D4877C45A80DA3C95" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Settings/DeveloperToolsView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"39ABC7609C914C6F6A2DC070" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5375190D4877C45A80DA3C95";
+		};
+		"28CD5F16D2533F047EB9C7EE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Settings/SettingsView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5E8E1B6CAE200FFD96E917DA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "28CD5F16D2533F047EB9C7EE";
+		};
+		"6CDA31BA1CF214ABAFA6E6B6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Watch/WatchControlView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B585792D38F56AEA2551112B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6CDA31BA1CF214ABAFA6E6B6";
+		};
+		"C51A6CA085A4D52824F22961" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Features/Watch/WebsitePairingScanner.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"1B6C9A80E3DE78E4A89A1E9F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C51A6CA085A4D52824F22961";
+		};
+		"80C42B478B4CF4185343EF16" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Services/CatalogService.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"894E478E0C36020CE032290D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "80C42B478B4CF4185343EF16";
+		};
+		"786CA2C8E72320C9568E206C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlX/Services/ProfileStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"97D3E373FDFA82C519B6A6CB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "786CA2C8E72320C9568E206C";
+		};
+		"486DA73825885A75B792D848" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Shared/Connectivity/PhoneWidgetSnapshot.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"EBCE7FED455FC2B59AE8B7D8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "486DA73825885A75B792D848";
+		};
+		"C85482043AE202311C7D4C82" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Shared/Connectivity/SessionTransferDisk.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"DB4659B6D3C69B0021695567" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C85482043AE202311C7D4C82";
+		};
+		"289560675C6BE2E76FCAAAF3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Shared/Connectivity/SessionTransferService.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B842C8D2A23FB9856075F72A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "289560675C6BE2E76FCAAAF3";
+		};
+		"F1FB4E5A222BD9FD35C81727" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Shared/Equipment/EquipmentModels.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"903B1861C968F80AE82D0DE1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F1FB4E5A222BD9FD35C81727";
+		};
+		"8D0CC2E519ED3A37A222A69E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.json";
+			"path" = "Resources/catalogue-development.json";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B73C283115EC262DB391AFA0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8D0CC2E519ED3A37A222A69E";
+		};
+		"856C499462BBFDE31A946813" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.json.xcstrings";
+			"path" = "Resources/Localizable.xcstrings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"90DDF3406FA0D2C3ACE38D6B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "856C499462BBFDE31A946813";
+		};
+		"6327A1005FF0B783151E530B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"path" = "Resources/PrivacyInfo.xcprivacy";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"E3C1CC3A4261FAFEA9320A42" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6327A1005FF0B783151E530B";
+		};
+		"4F9053591CA96331B682CBC0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlX/Info.plist";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"7563E43BC0395FAD4F691E58" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlX/ShuttlX.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B144C6FB2ADED89609E28FE2" = {
+			"isa" = "PBXGroup";
+			"children" = ("897DB351C5DFFBEBA92BDA2E", "C6097628A06CA9B49374A307", "946BB201E9149F6E5EA6A309", "4AADF6B51739C3B57776236C", "9C798CFFE5E6128FCAF20D10", "8BDFBB6AB8E8748F63F9C369", "6A902DFF3B6E2D65AD5C802B", "9DBEB3CBA8FF2B78E63F2FA3", "2DF0240B635C173C60128D6F", "CB031E747A95CB57CA78EFD3", "DD0CE6656CA8AC84B7E1939D", "5D64F38C3DDC1ADF846615F5", "5375190D4877C45A80DA3C95", "28CD5F16D2533F047EB9C7EE", "6CDA31BA1CF214ABAFA6E6B6", "C51A6CA085A4D52824F22961", "80C42B478B4CF4185343EF16", "786CA2C8E72320C9568E206C", "486DA73825885A75B792D848", "C85482043AE202311C7D4C82", "289560675C6BE2E76FCAAAF3", "F1FB4E5A222BD9FD35C81727", "8D0CC2E519ED3A37A222A69E", "856C499462BBFDE31A946813", "6327A1005FF0B783151E530B", "4F9053591CA96331B682CBC0", "7563E43BC0395FAD4F691E58");
+			"name" = "ShuttlX";
+			"sourceTree" = "<group>";
+		};
+		"F6B3A1EC563081A59D64FB62" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "582681C2EAE02B3F3D399C0C";
+			"productName" = "ShuttlXCore";
+		};
+		"2D087B59A39373309DD17D73" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "F6B3A1EC563081A59D64FB62";
+		};
+		"57831F9F70FD74ECA7E61BE7" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "F8079C1F1F9C77114E11DED4";
+			"remoteInfo" = "ShuttlXWidgets";
+		};
+		"A3334DC8591E2B02DD9451E6" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "F8079C1F1F9C77114E11DED4";
+			"targetProxy" = "57831F9F70FD74ECA7E61BE7";
+		};
+		"D071E9491E5726F1F68C6FA8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E7740C743ACE34DBEEAA7FA7";
+			"settings" = {
+				"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+			};
+		};
+		"5C9AE16BE977235C4E60F1FF" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "B851F71DFDCD46836CA1E141";
+			"remoteInfo" = "ShuttlXWatch";
+		};
+		"89E5B6CDDEE6FFD21101831F" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "B851F71DFDCD46836CA1E141";
+			"targetProxy" = "5C9AE16BE977235C4E60F1FF";
+		};
+		"2B0CF3DC0A04800578019CC7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B136D0B52B15473B79BBDEC0";
+			"settings" = {
+				"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+			};
+		};
+		"C84FD9C913DF9037172BDD7D" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("D4BE2389591BC77B3006532E", "48FB64CA46039B505953E04A", "DAC9B9FC13558AEEC4443C39", "5C2136C02757DFA861E51E63", "C495D5FE35AB84AC9E5E7916", "51175FE06F488F23EB0444F9", "2CF13F17CC0F781634A71D02", "4B068E4CFCA0A8DA8FB7234F", "1062EB8CEE3FBC6FAF4A6A39", "40762EB23E5D1916AA27DE3E", "2D1B097F670774AF82F8F359", "39ABC7609C914C6F6A2DC070", "5E8E1B6CAE200FFD96E917DA", "B585792D38F56AEA2551112B", "1B6C9A80E3DE78E4A89A1E9F", "894E478E0C36020CE032290D", "97D3E373FDFA82C519B6A6CB", "EBCE7FED455FC2B59AE8B7D8", "DB4659B6D3C69B0021695567", "B842C8D2A23FB9856075F72A", "903B1861C968F80AE82D0DE1");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"31D79403B35A63CBCCA971D3" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("2D087B59A39373309DD17D73");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"809AF24CB79287750778B621" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("9F476D73B33F68B7F725F45D", "B73C283115EC262DB391AFA0", "90DDF3406FA0D2C3ACE38D6B", "E3C1CC3A4261FAFEA9320A42");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"8C5BF58373099506703BA1FD" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"dstPath" = "";
+			"dstSubfolderSpec" = 13;
+			"files" = ("D071E9491E5726F1F68C6FA8");
+			"name" = "Embed App Extensions";
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"522E237FF353C1EC1258992E" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"dstPath" = "$(CONTENTS_FOLDER_PATH)/Watch";
+			"dstSubfolderSpec" = 16;
+			"files" = ("2B0CF3DC0A04800578019CC7");
+			"name" = "Embed Watch Content";
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"8222F843D799402CC4550A1E" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app";
+				"INFOPLIST_FILE" = "ShuttlX/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlX/ShuttlX.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"SUPPORTS_MACCATALYST" = NO;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "iphoneos";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "18.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"A48D0EA29F341C2A794F02CA" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app";
+				"INFOPLIST_FILE" = "ShuttlX/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlX/ShuttlX.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"SUPPORTS_MACCATALYST" = NO;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "iphoneos";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "18.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"3A13C7B0D66C86BD08DBD16C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("8222F843D799402CC4550A1E", "A48D0EA29F341C2A794F02CA");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"B1ABF189F51F66B17ED2C722" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "3A13C7B0D66C86BD08DBD16C";
+			"buildPhases" = ("C84FD9C913DF9037172BDD7D", "31D79403B35A63CBCCA971D3", "809AF24CB79287750778B621", "8C5BF58373099506703BA1FD", "522E237FF353C1EC1258992E");
+			"buildRules" = ();
+			"dependencies" = ("A3334DC8591E2B02DD9451E6", "89E5B6CDDEE6FFD21101831F");
+			"name" = "ShuttlX";
+			"packageProductDependencies" = ("F6B3A1EC563081A59D64FB62");
+			"productName" = "ShuttlX";
+			"productReference" = "0C2F1B0FAF009CE8742D725E";
+			"productType" = "com.apple.product-type.application";
+		};
+		"81FC12E8A05F5D66AA0E3ACE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWidgets/ShuttlXWidgets.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"61B9583709310BBAFCE03443" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "81FC12E8A05F5D66AA0E3ACE";
+		};
+		"0B531D6883D06B4AE79677EB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "486DA73825885A75B792D848";
+		};
+		"1EA10BCB7361F9830C8100E0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6327A1005FF0B783151E530B";
+		};
+		"6E51BC7866A4E6756FAE7682" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWidgets/Info.plist";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D40B55B793A2065B7EE9F12C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWidgets/ShuttlXWidgets.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B359C45BBFA766FFB23C308A" = {
+			"isa" = "PBXGroup";
+			"children" = ("81FC12E8A05F5D66AA0E3ACE", "486DA73825885A75B792D848", "6327A1005FF0B783151E530B", "6E51BC7866A4E6756FAE7682", "D40B55B793A2065B7EE9F12C");
+			"name" = "ShuttlXWidgets";
+			"sourceTree" = "<group>";
+		};
+		"AEF5359404252305DD24C508" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("61B9583709310BBAFCE03443", "0B531D6883D06B4AE79677EB");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"83D6D98AC2D6F3CF19A03E08" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"432D4904DAB6D575B3CADA7D" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("1EA10BCB7361F9830C8100E0");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"AA8F54B79D8832C0695BC06A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.widgets";
+				"INFOPLIST_FILE" = "ShuttlXWidgets/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWidgets/ShuttlXWidgets.entitlements";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"APPLICATION_EXTENSION_API_ONLY" = YES;
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "iphoneos";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "18.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"DA0325242BEB0C56D02607A9" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.widgets";
+				"INFOPLIST_FILE" = "ShuttlXWidgets/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWidgets/ShuttlXWidgets.entitlements";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"APPLICATION_EXTENSION_API_ONLY" = YES;
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "iphoneos";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "18.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"6EB8FDDEC57A144BEB21932C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("AA8F54B79D8832C0695BC06A", "DA0325242BEB0C56D02607A9");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"F8079C1F1F9C77114E11DED4" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "6EB8FDDEC57A144BEB21932C";
+			"buildPhases" = ("AEF5359404252305DD24C508", "83D6D98AC2D6F3CF19A03E08", "432D4904DAB6D575B3CADA7D");
+			"buildRules" = ();
+			"dependencies" = ();
+			"name" = "ShuttlXWidgets";
+			"packageProductDependencies" = ();
+			"productName" = "ShuttlXWidgets";
+			"productReference" = "E7740C743ACE34DBEEAA7FA7";
+			"productType" = "com.apple.product-type.app-extension";
+		};
+		"41114475754B4D59AF0B4D44" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "ShuttlXWatch/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"CF6B40DA6C3E5D2A16846803" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "41114475754B4D59AF0B4D44";
+		};
+		"5CDDF6982D48D73AC288A865" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatch/ShuttlXWatchApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"87D7AF52E9398DBFD5EB4054" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5CDDF6982D48D73AC288A865";
+		};
+		"A91E4600620691E149496462" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatch/WatchCaptureWorker.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"A5EA5F9C7FA2322D141ED7FD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A91E4600620691E149496462";
+		};
+		"67951BCEA578CBDB3801222F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatch/WatchRootView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5FC85A3A9D1AE2F05E5B3690" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "67951BCEA578CBDB3801222F";
+		};
+		"3C29039249BE950A245A5DB7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatch/WatchSessionController.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"7DC34A89B480C482B2D3A052" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3C29039249BE950A245A5DB7";
+		};
+		"973D8439DAB61E143B7CED2D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatch/WatchWebSync.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B71BEECF23EC99BD3D4FC41E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "973D8439DAB61E143B7CED2D";
+		};
+		"7E3F75D397EC908567BC6B5D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C85482043AE202311C7D4C82";
+		};
+		"F9DAA0D74E2A6E9AA1BFCE9E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "289560675C6BE2E76FCAAAF3";
+		};
+		"8A30D0ED49C4FAD27FB6FD5A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Shared/Connectivity/WatchWidgetSnapshot.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"26F833A59708D0B654B170A3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8A30D0ED49C4FAD27FB6FD5A";
+		};
+		"853282E79198D1E80065E16F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "856C499462BBFDE31A946813";
+		};
+		"0D0D4EABFA528AA92D5502DE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6327A1005FF0B783151E530B";
+		};
+		"06137DFFFCA2F33BE3A445E1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWatch/Info.plist";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"848D44FC810AD6ED18A677B7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWatch/ShuttlXWatch.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"90E71398F6724174AFA040B3" = {
+			"isa" = "PBXGroup";
+			"children" = ("41114475754B4D59AF0B4D44", "5CDDF6982D48D73AC288A865", "A91E4600620691E149496462", "67951BCEA578CBDB3801222F", "3C29039249BE950A245A5DB7", "973D8439DAB61E143B7CED2D", "C85482043AE202311C7D4C82", "289560675C6BE2E76FCAAAF3", "8A30D0ED49C4FAD27FB6FD5A", "856C499462BBFDE31A946813", "6327A1005FF0B783151E530B", "06137DFFFCA2F33BE3A445E1", "848D44FC810AD6ED18A677B7");
+			"name" = "ShuttlXWatch";
+			"sourceTree" = "<group>";
+		};
+		"F1018B90ECD11491A493EB75" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "582681C2EAE02B3F3D399C0C";
+			"productName" = "ShuttlXCore";
+		};
+		"FB12FE7EF96F5EAFE5256D5F" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "F1018B90ECD11491A493EB75";
+		};
+		"FB144E8B7FF2D0295F6123E7" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "69C548B162853C9176ED03F0";
+			"remoteInfo" = "ShuttlXWatchWidgets";
+		};
+		"8F2298B4173B959ACE10A310" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "69C548B162853C9176ED03F0";
+			"targetProxy" = "FB144E8B7FF2D0295F6123E7";
+		};
+		"72F70AD5587154BCAD41960A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3720316C0DCB921C2DFDB4AB";
+			"settings" = {
+				"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+			};
+		};
+		"3DC9BB9B91D7D5D6FD1D2ACE" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("87D7AF52E9398DBFD5EB4054", "A5EA5F9C7FA2322D141ED7FD", "5FC85A3A9D1AE2F05E5B3690", "7DC34A89B480C482B2D3A052", "B71BEECF23EC99BD3D4FC41E", "7E3F75D397EC908567BC6B5D", "F9DAA0D74E2A6E9AA1BFCE9E", "26F833A59708D0B654B170A3");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"45B85CE77ABD0164CB97FB2B" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("FB12FE7EF96F5EAFE5256D5F");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"38C5F4F723AA34455814EB96" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("CF6B40DA6C3E5D2A16846803", "853282E79198D1E80065E16F", "0D0D4EABFA528AA92D5502DE");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"28E69EFBEEE2E488FB52F064" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"dstPath" = "";
+			"dstSubfolderSpec" = 13;
+			"files" = ("72F70AD5587154BCAD41960A");
+			"name" = "Embed App Extensions";
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"0E13F2FB52ED38084EA4D257" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.watchkitapp";
+				"INFOPLIST_FILE" = "ShuttlXWatch/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWatch/ShuttlXWatch.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"TARGETED_DEVICE_FAMILY" = "4";
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "watchos";
+				"SUPPORTED_PLATFORMS" = "watchos watchsimulator";
+				"WATCHOS_DEPLOYMENT_TARGET" = "11.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"308D1CA2831E8367D45D728D" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.watchkitapp";
+				"INFOPLIST_FILE" = "ShuttlXWatch/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWatch/ShuttlXWatch.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"TARGETED_DEVICE_FAMILY" = "4";
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "watchos";
+				"SUPPORTED_PLATFORMS" = "watchos watchsimulator";
+				"WATCHOS_DEPLOYMENT_TARGET" = "11.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"A16629E40C3786F330959DBB" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("0E13F2FB52ED38084EA4D257", "308D1CA2831E8367D45D728D");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"B851F71DFDCD46836CA1E141" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "A16629E40C3786F330959DBB";
+			"buildPhases" = ("3DC9BB9B91D7D5D6FD1D2ACE", "45B85CE77ABD0164CB97FB2B", "38C5F4F723AA34455814EB96", "28E69EFBEEE2E488FB52F064");
+			"buildRules" = ();
+			"dependencies" = ("8F2298B4173B959ACE10A310");
+			"name" = "ShuttlXWatch";
+			"packageProductDependencies" = ("F1018B90ECD11491A493EB75");
+			"productName" = "ShuttlXWatch";
+			"productReference" = "B136D0B52B15473B79BBDEC0";
+			"productType" = "com.apple.product-type.application";
+		};
+		"D6751594DBC2A15B674F748A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ShuttlXWatchWidgets/ShuttlXWatchWidgets.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"F746FE0E5EF16FCB49695062" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D6751594DBC2A15B674F748A";
+		};
+		"360EAB8824E3D094E80CD23E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8A30D0ED49C4FAD27FB6FD5A";
+		};
+		"B85894471E775BDDF6A9C78B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6327A1005FF0B783151E530B";
+		};
+		"D5F699C910AA94FCE4E5CF88" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWatchWidgets/Info.plist";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"8E73727B1248E4DD73632DEF" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "ShuttlXWatchWidgets/ShuttlXWatchWidgets.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"97D3BAB3F46D1186027ADE73" = {
+			"isa" = "PBXGroup";
+			"children" = ("D6751594DBC2A15B674F748A", "8A30D0ED49C4FAD27FB6FD5A", "6327A1005FF0B783151E530B", "D5F699C910AA94FCE4E5CF88", "8E73727B1248E4DD73632DEF");
+			"name" = "ShuttlXWatchWidgets";
+			"sourceTree" = "<group>";
+		};
+		"D058DF52D942961FB7E0EDB2" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("F746FE0E5EF16FCB49695062", "360EAB8824E3D094E80CD23E");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"439A29038154928DE4C75738" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"4345F7B490D4B634638FF588" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("B85894471E775BDDF6A9C78B");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"B30EF98325D33D054BF29A61" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.watchkitapp.widgets";
+				"INFOPLIST_FILE" = "ShuttlXWatchWidgets/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWatchWidgets/ShuttlXWatchWidgets.entitlements";
+				"TARGETED_DEVICE_FAMILY" = "4";
+				"APPLICATION_EXTENSION_API_ONLY" = YES;
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "watchos";
+				"SUPPORTED_PLATFORMS" = "watchos watchsimulator";
+				"WATCHOS_DEPLOYMENT_TARGET" = "11.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"B5CF1B49104F4A967BA823BA" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_VERSION" = "5.0";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"SWIFT_EMIT_LOC_STRINGS" = YES;
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = 1;
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.shuttlx.app.watchkitapp.widgets";
+				"INFOPLIST_FILE" = "ShuttlXWatchWidgets/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "ShuttlXWatchWidgets/ShuttlXWatchWidgets.entitlements";
+				"TARGETED_DEVICE_FAMILY" = "4";
+				"APPLICATION_EXTENSION_API_ONLY" = YES;
+				"SKIP_INSTALL" = YES;
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SDKROOT" = "watchos";
+				"SUPPORTED_PLATFORMS" = "watchos watchsimulator";
+				"WATCHOS_DEPLOYMENT_TARGET" = "11.0";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"F89A1F6A5463CE7E6748B603" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("B30EF98325D33D054BF29A61", "B5CF1B49104F4A967BA823BA");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"69C548B162853C9176ED03F0" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "F89A1F6A5463CE7E6748B603";
+			"buildPhases" = ("D058DF52D942961FB7E0EDB2", "439A29038154928DE4C75738", "4345F7B490D4B634638FF588");
+			"buildRules" = ();
+			"dependencies" = ();
+			"name" = "ShuttlXWatchWidgets";
+			"packageProductDependencies" = ();
+			"productName" = "ShuttlXWatchWidgets";
+			"productReference" = "3720316C0DCB921C2DFDB4AB";
+			"productType" = "com.apple.product-type.app-extension";
+		};
+		"FBDC4F23F93125BBEEAE800C" = {
+			"isa" = "PBXGroup";
+			"children" = ("0C2F1B0FAF009CE8742D725E", "E7740C743ACE34DBEEAA7FA7", "B136D0B52B15473B79BBDEC0", "3720316C0DCB921C2DFDB4AB");
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"E50290A24C49A459B43487C5" = {
+			"isa" = "PBXGroup";
+			"children" = ("B144C6FB2ADED89609E28FE2", "B359C45BBFA766FFB23C308A", "90E71398F6724174AFA040B3", "97D3BAB3F46D1186027ADE73", "FBDC4F23F93125BBEEAE800C");
+			"sourceTree" = "<group>";
+		};
+		"89E1FD6268CC0F221A2BE178" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) DEBUG";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"E6DE6C99132752C914FEF632" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"FBD3510CED826C9DAA696E48" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("89E1FD6268CC0F221A2BE178", "E6DE6C99132752C914FEF632");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "2600";
+			};
+			"buildConfigurationList" = "FBD3510CED826C9DAA696E48";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = ("en", "Base");
+			"mainGroup" = "E50290A24C49A459B43487C5";
+			"productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+			"packageReferences" = ("582681C2EAE02B3F3D399C0C");
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ("B1ABF189F51F66B17ED2C722", "F8079C1F1F9C77114E11DED4", "B851F71DFDCD46836CA1E141", "69C548B162853C9176ED03F0");
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
