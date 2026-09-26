@@ -123,9 +123,12 @@ private struct WatchConfiguration: Codable, Sendable {
 
     #if os(iOS)
     public func sendWebCredential(baseURL: URL, deviceID: UUID, token: String) {
-        guard connection.activationState == .activated else { lastError = "WatchConnectivity is still activating."; return }
+        guard WCSession.isSupported() else { lastError = "WatchConnectivity is not supported on this device."; return }
+        guard connection.activationState == .activated else { lastError = "WatchConnectivity is still activating. Open ShuttlX on the paired Watch and try again."; return }
         guard connection.isPaired, connection.isWatchAppInstalled else { lastError = "Install ShuttlX on the paired Watch first."; return }
         let message: [String: Any] = ["kind": "shuttlx-website-pair-v1", "baseURL": baseURL.absoluteString, "deviceID": deviceID.uuidString, "token": token]
+        connection.transferUserInfo(message)
+        guard connection.isReachable else { lastError = "The Watch is unavailable right now. The website credential is queued and will arrive when it reconnects."; return }
         connection.sendMessage(message, replyHandler: nil) { [weak self] error in
             Task { @MainActor in self?.lastError = "The Watch could not receive its website pairing: \(error.localizedDescription)" }
         }
