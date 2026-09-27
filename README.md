@@ -19,6 +19,10 @@ stores the source; GitHub Pages is not used for the account API. See
 [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for the Apple credentials, D1
 migration, custom-domain and DNS steps.
 
+The published website is [ShuttlX](https://shuttlx.ericxyuan.chatgpt.site).
+The Watch's default Website Sync address uses this same origin. Apple sign-in
+still requires the Apple Developer credentials described in the deployment guide.
+
 ## Open the project later on Mac
 
 The [interactive interface review](docs/design/index.html) shows the phone,

@@ -6,13 +6,17 @@ The `ericxyn/shuttlx` GitHub repository is the source of truth for this project;
 GitHub Pages is not the runtime for this application because Pages cannot run the
 D1-backed API or the Apple sign-in callback.
 
+The current website is [ShuttlX](https://shuttlx.ericxyuan.chatgpt.site).
+Its site label is `shuttlx` and its hosting account label is `ericxyuan`.
+The GitHub repository owner is independent of these hosting labels.
+
 ## Apple sign-in configuration
 
-Create a Sign in with Apple Service ID for the final site host and add the exact
-callback URL:
+Create a Sign in with Apple Service ID for `shuttlx.ericxyuan.chatgpt.site` and
+add this exact callback URL:
 
 ```
-https://YOUR_HOST/api/auth/apple/callback
+https://shuttlx.ericxyuan.chatgpt.site/api/auth/apple/callback
 ```
 
 Configure these environment variables in the Worker/Sites project. Keep the
@@ -23,8 +27,8 @@ APPLE_CLIENT_ID=your.service.id
 APPLE_TEAM_ID=your-team-id
 APPLE_KEY_ID=your-key-id
 APPLE_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----
-APPLE_REDIRECT_URI=https://YOUR_HOST/api/auth/apple/callback
-PUBLIC_BASE_URL=https://YOUR_HOST
+APPLE_REDIRECT_URI=https://shuttlx.ericxyuan.chatgpt.site/api/auth/apple/callback
+PUBLIC_BASE_URL=https://shuttlx.ericxyuan.chatgpt.site
 ```
 
 The callback verifies Apple’s signed identity token, creates or updates the

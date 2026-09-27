@@ -138,7 +138,7 @@ private final class WebRedirectBlocker: NSObject, URLSessionTaskDelegate, @unche
 }
 struct WatchWebsiteView: View {
     @Environment(WatchSessionController.self) private var controller
-    @State private var website = "https://shuttlx-court.ericxyn-cn.chatgpt.site"
+    @State private var website = "https://shuttlx.ericxyuan.chatgpt.site"
     @State private var error: String?
     @State private var confirmDisconnect = false
     @State private var showingQR = false
