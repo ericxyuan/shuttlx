@@ -68,7 +68,7 @@ does not follow browser sign-in redirects while uploading data.
 
 Do not reuse `altitude.linkpc.net`. That CNAME belongs to the separate static
 Altitude GitHub Pages project at
-[`ericxyuan/ericxyn.github.io`](https://github.com/ericxyuan/ericxyn.github.io),
+[`ericxyuan/ericxyuan.github.io`](https://github.com/ericxyuan/ericxyuan.github.io),
 which remains unchanged.
 
 ## Local checks
