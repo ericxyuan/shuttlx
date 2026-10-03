@@ -2,7 +2,7 @@
 
 The ShuttlX website is a full-stack Worker application. The browser interface,
 Apple callback, Watch API and per-account data store must be deployed together.
-The `ericxyn/shuttlx` GitHub repository is the source of truth for this project;
+The `ericxyuan/shuttlx` GitHub repository is the source of truth for this project;
 GitHub Pages is not the runtime for this application because Pages cannot run the
 D1-backed API or the Apple sign-in callback.
 
@@ -68,7 +68,7 @@ does not follow browser sign-in redirects while uploading data.
 
 Do not reuse `altitude.linkpc.net`. That CNAME belongs to the separate static
 Altitude GitHub Pages project at
-[`ericxyn/ericxyn.github.io`](https://github.com/ericxyn/ericxyn.github.io),
+[`ericxyuan/ericxyn.github.io`](https://github.com/ericxyuan/ericxyn.github.io),
 which remains unchanged.
 
 ## Local checks
